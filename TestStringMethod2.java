@@ -59,10 +59,10 @@ public class TestStringMethod2
       // convert substring to int)
       public static char charAt(String str, int index)
       {
-            String substring = new String(" ");
-            substring = str.substring(index, index + 1);
+            String substr = new String(" ");
+            substr = str.substring(index, index + 1);
             int asciiValue = 0;
-            asciiValue= substring.compareTo( (char)(31) + "" ) + 31;
+            asciiValue = substr.compareTo( (char)(31) + " " ) + 31;
             return (char) asciiValue;
 	     
 	  }
