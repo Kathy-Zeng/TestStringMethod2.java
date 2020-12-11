@@ -62,8 +62,8 @@ public class TestStringMethod2
             String substring = new String(" ");
             substring = str.substring(index, index + 1);
             int asciiValue = 0;
-            asciiValue= substring.compareTo( (char)(31) + "" ) +31;
-            return (char)asciiValue;
+            asciiValue= substring.compareTo( (char)(31) + "" ) + 31;
+            return (char) asciiValue;
 	     
 	  }
    }
